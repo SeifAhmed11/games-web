@@ -1,0 +1,202 @@
+body {
+    font-family: "Roboto" ,sans-serif;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 999;
+}
+
+.line {
+    width: 420px;
+    margin-top: -5px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 60px;
+    color: aliceblue;
+}
+
+.parts {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 200px;
+    background-image: linear-gradient(to right, rgba(19,21,34,1),rgba(57,91,119,1),rgba(16,38,73,1));
+    left: -200px;
+    width: 830px;
+    padding: 25px 200px 25px 50px;
+    margin-left: 400px;
+    color: aliceblue;
+    font-weight: lighter;
+}
+
+.num {
+    font-weight: bold;
+}
+
+.par {
+    cursor:pointer;
+}
+
+.parts .active {
+    border-style: none none outset none;
+    padding-bottom: 20px;
+    margin-bottom: -25px;
+    border-color: rgb(240, 240, 240);
+}
+
+.parts_2 > div:not(:first-child){
+    display: none;
+}
+
+.star {
+    background-color: rgb(255, 255, 255);
+    color: rgb(11 13 25);
+    margin-top: 18px;
+    padding: 4px 2px 0 6px;
+    border-radius: 92px;
+    height: 30px;
+    width: 30px;
+}
+
+.home {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: url(assets/home/background-home-desktop.jpg) no-repeat ;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ho {
+    margin-left: 100px;
+}
+
+.so {
+    margin-bottom: 20px;
+    color:rgb(162, 167, 194);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-weight: 300;
+}
+
+.space {
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255);
+    font-size: 8em;
+    letter-spacing: 11px;
+    font-weight: 300;
+}
+
+.let {
+    max-width: 388px;
+    margin-bottom: 20px;
+    color:rgb(162, 167, 194);
+    font-size: 0.8em;
+    font-weight: bold;
+    font-weight: 300;
+}
+
+.Explore {
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color:rgb(27, 27, 27);
+    font-size: 2em;
+    font-weight: 300;
+    background-color: white;
+    width: 210px;
+    height: 210px;
+    border-radius: 231px;
+    padding: 77px 37px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+.destination {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: url(assets/destination/background-destination-desktop.jpg) no-repeat ;
+    background-size: cover; 
+}
+
+.destination .name {
+    padding-top: 15%;
+    padding-left:10% ;
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: bold;
+    font-weight: 350;
+}
+
+.num_2 {
+    color: rgb(79, 79, 90);
+    margin-right: 13px;
+}
+
+.destination .kinds {
+    color:rgb(255, 255, 255);
+    font-size: 0.9em;
+    font-weight: bold;
+    font-weight: 350;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+
+.kwakb {
+    cursor:pointer;
+}
+
+.kinds .active {
+    border-style: none none outset none;
+    border-color: rgb(240, 240, 240);
+    margin-bottom: 499px;
+}
+
+.marss ,
+.Mooon ,
+.Euroopa ,
+.Titaan {
+    position: absolute;
+}
+
+.kind_2 >div:not(:first-child){
+    display: none;
+}
+
+.kinds {
+    margin-top: 30%;
+}
+
+.pla {
+    position: absolute;
+}
+
+.imge_mars {
+    margin-left: -605px;
+    width: 335px;
+    height: 335px;
+    margin-top: 471px;
+}
+
+.info {
+    margin-top: -390px;
+    margin-right: 8px;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    color: aliceblue;
+}
